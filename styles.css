@@ -1535,13 +1535,23 @@ body:has(.filter-btn:hover) .cursor-ring{
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 420px;
+  width: 420px;
+  height: 420px;
+  min-height: 0;
+  border-radius: 50%;
   background: radial-gradient(circle at 30% 20%, rgba(124,92,255,.35), transparent 45%), linear-gradient(135deg, rgba(124,92,255,.18), rgba(42,208,180,.12));
   border: 1px solid var(--border);
+}
+
+.hero-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .initial-avatar .portrait-image {
   width: 280px;
   height: 280px;
+  aspect-ratio: 1;
   object-fit: cover;
   object-position: center top;
   border-radius: 50%;
