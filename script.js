@@ -403,7 +403,7 @@
         themeIcon.textContent = '🌞';
       }
       if (logoImg) {
-        logoImg.src = '/img/logo.png';
+        logoImg.src = 'img/logo.png';
       }
     } else {
       root.removeAttribute('data-theme');
@@ -412,7 +412,7 @@
         themeIcon.textContent = '🌙';
       }
       if (logoImg) {
-        logoImg.src = '/img/dark-logo.png';
+        logoImg.src = 'img/dark-logo.png';
       }
     }
   }

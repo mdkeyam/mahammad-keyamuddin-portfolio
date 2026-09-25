@@ -1365,6 +1365,20 @@ html {
     text-align: center;
   }
 
+  .hero-media {
+    width: 100%;
+  }
+
+  .initial-avatar {
+    width: min(72vw, 320px);
+    height: min(72vw, 320px);
+  }
+
+  .initial-avatar .portrait-image {
+    width: min(56vw, 240px);
+    height: min(56vw, 240px);
+  }
+
   .hero-stats {
     flex-direction: column;
     gap: 20px;
